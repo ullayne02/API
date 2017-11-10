@@ -1,6 +1,6 @@
 from ..ranker import *
 import math
-
+import json
 # function that returns a vector of a document based on a query 
 # a query with duplicate elements will remove the duplicates to build the vector
 # example query = ["cat","bad","cat","bad"] will return a vector with two elements like [0.30102999566398114, 0.15051499783199057]
@@ -49,7 +49,9 @@ def similarities (query, documents):
     result = [cossine(query, x) for x in documents]
     return result
     
-def inverted_file (file):
+def inverted_file (file, id):
+    result = {}
+    invertedf = {}
     file = file.split()
     voc = removeDuplicates(file)
     size = len(file)
@@ -59,5 +61,17 @@ def inverted_file (file):
         for i in range(size):
             if q == file[i]:
                 result[q].append(i)
-    return result
+    invertedf[id] = result
     
+    #try:
+    #    with open('data.json', 'r') as fileIn:
+    #        self._hash = json.load(fileIn)
+    #        fileIn.close()
+    #except IOError:
+    #    with open('data.json', 'w') as fileOut:
+    #json.dump(self._hash, fileOut)
+    #        fileOut.close()
+
+    with open('data.json', 'a') as outfile:
+        json.dump(invertedf, outfile)
+    return invertedf

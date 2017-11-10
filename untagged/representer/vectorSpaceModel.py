@@ -50,8 +50,8 @@ def similarities (query, documents):
     return result
     
 def inverted_file (file, id):
+    inv_fil = {}
     result = {}
-    invertedf = {}
     file = file.split()
     voc = removeDuplicates(file)
     size = len(file)
@@ -61,17 +61,7 @@ def inverted_file (file, id):
         for i in range(size):
             if q == file[i]:
                 result[q].append(i)
-    invertedf[id] = result
-    
-    #try:
-    #    with open('data.json', 'r') as fileIn:
-    #        self._hash = json.load(fileIn)
-    #        fileIn.close()
-    #except IOError:
-    #    with open('data.json', 'w') as fileOut:
-    #json.dump(self._hash, fileOut)
-    #        fileOut.close()
-
+    inv_fil[id] = result
     with open('data.json', 'a') as outfile:
-        json.dump(invertedf, outfile)
-    return invertedf
+        json.dump(inv_fil, outfile)
+    return inv_fil

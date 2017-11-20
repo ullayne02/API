@@ -1,1 +1,1 @@
-from .ranking import *
+__all__ = ['ranking']

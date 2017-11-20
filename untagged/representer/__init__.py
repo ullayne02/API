@@ -1,1 +1,1 @@
-from .vectorSpaceModel import *
+__all__ = ['inverter']

@@ -1,5 +1,12 @@
+import nltk
+nltk.download('wordnet')
+from nltk.stem import WordNetLemmatizer
 
-import json
-data1 = ([1,2,3], "id")
-data = {"id": 4, "invertedFile": {"bad":[23],"cat":[0,16],"cute":[10]}}
-
+sent = 'i cant understanding walking was were is are'
+lm = WordNetLemmatizer()
+a = sent.split()
+b = [lm.lemmatize(x, pos='v') for x in a]
+for x in b:
+    print(x)
+    
+    

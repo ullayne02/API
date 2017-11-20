@@ -4,7 +4,6 @@ a
 a's
 able
 about
-above
 abst
 accordance
 according
@@ -22,7 +21,6 @@ afterwards
 again
 against
 ah
-ain't
 all
 allow
 allows
@@ -54,13 +52,10 @@ apparently
 appear
 appreciate
 appropriate
-approximately
 are
 aren
-aren't
 arent
 arise
-around
 as
 aside
 ask
@@ -80,13 +75,9 @@ become
 becomes
 becoming
 been
-before
 beforehand
-begin
 beginning
 beginnings
-begins
-behind
 being
 believe
 below
@@ -94,8 +85,6 @@ beside
 besides
 best
 better
-between
-beyond
 biol
 both
 brief
@@ -144,11 +133,8 @@ didn't
 different
 do
 does
-doesn't
 doing
-don't
 done
-down
 downwards
 due
 during
@@ -183,8 +169,6 @@ exactly
 example
 except
 f
-far
-few
 ff
 fifth
 first
@@ -199,8 +183,6 @@ formerly
 forth
 found
 four
-from
-further
 furthermore
 g
 gave
@@ -255,6 +237,7 @@ his
 hither
 home
 hopefully
+hotel
 how
 how's
 howbeit
@@ -286,11 +269,9 @@ information
 inner
 insofar
 instead
-into
 invention
 inward
 is
-isn't
 it
 it'd
 it'll
@@ -359,7 +340,6 @@ mrs
 much
 mug
 must
-mustn't
 my
 myself
 n
@@ -368,8 +348,6 @@ name
 namely
 nay
 nd
-near
-nearly
 necessarily
 necessary
 need
@@ -378,7 +356,6 @@ neither
 never
 nevertheless
 new
-next
 nine
 ninety
 no
@@ -729,7 +706,6 @@ willing
 wish
 with
 within
-without
 won't
 wonder
 wont

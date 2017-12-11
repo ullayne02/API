@@ -16,7 +16,6 @@ adj
 affected
 affecting
 affects
-after
 afterwards
 again
 against
@@ -81,8 +80,6 @@ beginnings
 being
 believe
 below
-beside
-besides
 best
 better
 biol

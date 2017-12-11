@@ -253,7 +253,7 @@ def rankingContainers(query, dictionary):
         aux = dictionary[e]["comments"].keys()
         comments.append(aux)
         aux2 = []
-        for a in aux:
+        for a in aux:a
             aux2.append(dictionary[e]["comments"][a])
         invertedFiles.append(aux2)
     pair = [[0,0.0,0.0,entity[0]] for x in range(len(entity))]
